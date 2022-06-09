@@ -1,0 +1,46 @@
+body{
+    background-color: #C7B198;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    background-color: #DFD3C3;
+    width: 20%;
+    height: 50%;
+    margin: 5%;
+    padding:1%;
+    align-items: center;
+    box-shadow: 10px 10px 10px 2px #a3917c;
+    border-radius: 15px;
+}
+
+img{
+    width: 150px;
+}
+
+a {
+    margin-top: 3%;
+    color: gray;
+    text-decoration: none;
+}
+
+a:visited {
+    color:darkgraygray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #A68DAD;
+    text-decoration: none;
+}
+
+a:active {
+    color: pink;
+    text-decoration: none;
+}
